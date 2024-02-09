@@ -9,5 +9,5 @@ jobs:
   TITAN: 
     uses: JaredDevAxity/AR_26_A_ARCHERNAR_ACTIONS/.github/workflows/TITAN_Angular.yml@main
     with: 
-      node-version: '16'
+      node-version: '20'
       run-path: '.'
