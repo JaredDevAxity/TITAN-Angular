@@ -1,0 +1,13 @@
+name: Angular CI
+run-name: TITAN-Angular
+
+on: 
+  push: 
+    branches: [titan]
+
+jobs: 
+  TITAN: 
+    uses: JaredDevAxity/AR_26_A_ARCHERNAR_ACTIONS/.github/workflows/TITAN_Angular.yml@main
+    with: 
+      node-version: '16'
+      run-path: '.'
